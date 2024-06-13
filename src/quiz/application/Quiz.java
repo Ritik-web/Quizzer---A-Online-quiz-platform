@@ -158,7 +158,7 @@ public class Quiz extends JFrame implements ActionListener {
         lifeline.setForeground(Color.WHITE);
         lifeline.addActionListener(this);
         add(lifeline);
-        
+         
         submit = new JButton("Submit");
         submit.setBounds(1100, 710, 200, 40);
         submit.setFont(new Font("Tahoma", Font.PLAIN, 22));
